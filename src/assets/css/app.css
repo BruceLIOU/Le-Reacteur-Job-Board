@@ -92,3 +92,59 @@ footer span{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
 }
+
+/* MEDIA QUERIES  */
+
+/* ----------- */
+/*    1328px   */
+/* ----------- */
+@media (max-width: 1328px) {
+  .container{
+    max-width: 1328px;
+  }
+}
+
+/* ----------- */
+/*    1080px   */
+/* ----------- */
+@media (max-width: 1250px) {
+  .container{
+    max-width: 1250px;
+  }
+}
+
+/* ----------- */
+/*    1024px   */
+/* ----------- */
+@media (max-width: 1024px) {
+  .container{
+    max-width: 1024px;
+  }
+}
+
+/* ----------- */
+/*    1120px    */
+/* ----------- */
+@media (max-width: 1120px) {
+  .container{
+    max-width: 1120px;
+  }
+}
+
+/* ----------- */
+/*    960px    */
+/* ----------- */
+@media (max-width: 960px) {
+  .container{
+    max-width: 960px;
+  }
+}
+
+/* ----------- */
+/*    768px    */
+/* ----------- */
+@media (max-width: 768px) {
+  .container{
+    max-width: 768px;
+  }
+}
