@@ -1,0 +1,94 @@
+/* GLOBAL RULES */
+.App header {
+  display: flex;
+  justify-content: center;
+  background-color: #333333;
+  width: 100%;
+  margin: 0 auto;
+  height: 100px;
+  align-items: center;
+}
+header h1{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+  font-size: 40px;
+  line-height: 47px;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  margin: 0 auto;
+}
+.container > div{
+  margin: 20px;
+}
+.job{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  display: block;
+  padding: 20px;
+  position: relative;
+}
+.job h2{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #000000;
+}
+.job div {
+  position: absolute;
+  bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.job1{
+  border: 10px solid #E30413;
+}
+.job2{
+  border: 10px solid #3EA535;
+}
+.job3{
+  border: 10px solid #FFEE00;
+}
+.job4{
+  border: 10px solid #039FE3;
+}
+.job5{
+  border: 10px solid #F8C5AF;
+}
+.job6{
+  border: 10px solid #E30413;
+}
+.job7{
+  border: 10px solid #3EA535;
+}
+.job8{
+  border: 10px solid #FFEE00;
+}
+.job9{
+  border: 10px solid #039FE3;
+}
+.App footer{
+  background-color: #DDDDDD;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 0px;
+  line-height: 63px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+footer span{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
